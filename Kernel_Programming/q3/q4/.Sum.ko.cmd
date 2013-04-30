@@ -1,0 +1,1 @@
+cmd_/home/test/Desktop/lab3b/q4/Sum.ko := ld -r -m elf_i386 -T /usr/src/kernels/2.6.33.3-85.fc13.i686.PAE/scripts/module-common.lds --build-id -o /home/test/Desktop/lab3b/q4/Sum.ko /home/test/Desktop/lab3b/q4/Sum.o /home/test/Desktop/lab3b/q4/Sum.mod.o

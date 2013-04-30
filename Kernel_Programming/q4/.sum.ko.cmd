@@ -1,0 +1,1 @@
+cmd_/home/varunmalhotra/week3b/q4/sum.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.5.0-17-generic/scripts/module-common.lds --build-id  -o /home/varunmalhotra/week3b/q4/sum.ko /home/varunmalhotra/week3b/q4/sum.o /home/varunmalhotra/week3b/q4/sum.mod.o

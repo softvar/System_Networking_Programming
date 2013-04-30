@@ -1,0 +1,1 @@
+cmd_/home/varunmalhotra/week3b/q3/factorial.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.5.0-17-generic/scripts/module-common.lds --build-id  -o /home/varunmalhotra/week3b/q3/factorial.ko /home/varunmalhotra/week3b/q3/factorial.o /home/varunmalhotra/week3b/q3/factorial.mod.o

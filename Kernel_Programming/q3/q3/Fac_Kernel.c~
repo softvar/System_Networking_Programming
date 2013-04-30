@@ -1,0 +1,22 @@
+# include <linux/module.h>
+#include <linux/kernel.h>	
+int init_module ( void )
+{
+unsigned int i,a;
+      printk ( " Hello world ! \ n " ) ;
+      return 0 ; / ∗ success ∗ /
+	if (i==0)
+	printk("The Factorial of 0 is:=1");
+	while(i!=0)
+		{
+		a=a*i;
+		i=i-1;
+		}
+printk ("The Ouput is:=%d",a)
+}
+}
+void cleanup_module ( void )
+{
+      printk ( "Goodbye w o r l d . \ n " ) ;
+}
+

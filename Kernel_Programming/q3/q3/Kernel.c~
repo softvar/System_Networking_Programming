@@ -1,0 +1,23 @@
+#include <linux/init.h>
+#include <linux/kernel.h>
+
+int init_module(void)
+{
+int i=4,fact=1;
+while(i!=0)
+{
+fact=fact*i;
+i=i-1;
+}
+printk(KERN_INFO "Factorial Output:%d",fact);
+}
+
+void cleanup_module(void)
+{
+printk (KERN_INFO "Exiting\n");
+}
+
+MODULE_AUTHOR("Tanmay");
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Factorial of a number");
+
