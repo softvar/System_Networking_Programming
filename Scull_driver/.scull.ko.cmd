@@ -1,0 +1,1 @@
+cmd_/home/varunmalhotra/snp/lab6b/ques2/scull.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.5.0-17-generic/scripts/module-common.lds --build-id  -o /home/varunmalhotra/snp/lab6b/ques2/scull.ko /home/varunmalhotra/snp/lab6b/ques2/scull.o /home/varunmalhotra/snp/lab6b/ques2/scull.mod.o
